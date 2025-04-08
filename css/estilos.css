@@ -1,3 +1,5 @@
+/*********** Estilos para index.html***************/
+
 body{
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -83,4 +85,100 @@ footer{
     margin-top: auto;
     text-align: center;
     padding: 10px 0px;
+}
+
+
+
+
+
+/*********** Estilos sobre html***************/
+
+#conteudo-empressa{
+    display:flex
+}
+
+#conteudo-empressa-esquerda{
+    
+    width 50%;
+}
+
+#conteudo-empressa-direita{
+   
+    width: 50%;
+
+}
+
+#conteudo-empressa-direita p {
+    padding-left: 30px;
+    text-align: justify;
+}
+
+#img-empressa{
+  width: 100%;
+}
+
+#selo-melhores-empressas{
+    height: 25%;
+    margin-top: 35px;
+}
+
+
+/*************Estilos para solucoes.html***************/
+
+#h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #22577a
+    font-size: 28px;
+}
+
+.destaques-produtos{
+    padding: 0px 15px;
+}
+
+.destaques-produtos a {
+    text-decoration: none;
+    color: rgba(4, 169, 119, 0.804);
+}
+
+.destaques-produtos a:hover {
+ font-weight: bold;
+}
+
+/*************Estilos para casos.html***************/
+
+.detalhes-caso{
+    display: flex;
+    margin: 25px 0px;
+}
+
+.detalhes-caso img {
+
+padding: 30px;
+}
+
+.detalhes-caso-texto {
+
+text-align: start;
+
+}
+
+/*************Estilos para contato.html***************/
+
+#frm-container{
+    display: flex;
+}
+
+#frm-labels{
+background-color: rgba(96, 255, 87, 0.861);
+width: 50%;
+text-align: right;
+padding-right: 15px;
+}
+
+#frm-fields{
+background-color: rgb(139, 234, 146);
+width: 50%;
+text-align: left;
+padding-right: 15px;
+
 }
